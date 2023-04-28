@@ -8,12 +8,14 @@ ROS version : Noetic
 
 
 Command to start the robot: 
+
 roslaunch mycar_start start.launch 
 
 
 1. Keyboard control SLAM
 
 roslaunch mycar_start start.launch 
+
 roslaunch nav gmapping.launch 
 
 - new terminal:
@@ -35,8 +37,11 @@ roslaunch nav map_server.launch
 2. Navigation SLAM with map
 
 roslaunch nav gmapping.launch
+
 roslaunch nav map_save.launch 
+
 roslaunch nav map_server.launch
+
 roslaunch nav test_amcl.launch 
 
 
@@ -44,6 +49,7 @@ roslaunch nav test_amcl.launch
 3. Navigation SLAM with no map
 
 roslaunch mycar_start start.launch 
+
 roslaunch nav auto_slam.launch 
 
 
