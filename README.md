@@ -1,6 +1,9 @@
 # SDP4848_SLAMrobot
 
-- Hardware on robot: Raspberry Pi 4 
+- Hardware on robot: 
+- 1. Raspberry Pi 4
+- 2. Arduino Mega
+- 3. L298N motor driver 
 
 - Environment using : Ubuntu 20.04 
 - ROS version : Noetic
