@@ -1,6 +1,6 @@
-# SDP4848_SLAMrobot
+### SDP4848_SLAMrobot
 
-- Hardware on robot: 
+### Hardware on robot: 
 - 1. Raspberry Pi 4
 - 2. Arduino Mega
 - 3. L298N motor driver 
@@ -10,18 +10,16 @@
 
 
 
-- Command to start the robot: 
+###  Command to start the robot: 
 
 roslaunch mycar_start start.launch 
 
-
-- 1. Keyboard control SLAM
+### 1. Keyboard control SLAM
 
 roslaunch mycar_start start.launch 
 
 roslaunch nav gmapping.launch 
-
-- new terminal:
+### new terminal:
 
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
@@ -36,8 +34,7 @@ b. load the map
 roslaunch nav map_server.launch
 
 
-
-- 2. Navigation SLAM with map
+### 2. Navigation SLAM with map
 
 roslaunch nav gmapping.launch
 
@@ -48,8 +45,7 @@ roslaunch nav map_server.launch
 roslaunch nav test_amcl.launch 
 
 
-
-- 3. Navigation SLAM with no map
+### 3. Navigation SLAM with no map
 
 roslaunch mycar_start start.launch 
 
