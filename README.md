@@ -1,18 +1,18 @@
 # SDP4848_SLAMrobot
 
-Hardware on robot: Raspberry Pi 4 
+- Hardware on robot: Raspberry Pi 4 
 
-Environment using : Ubuntu 20.04 
-ROS version : Noetic
+- Environment using : Ubuntu 20.04 
+- ROS version : Noetic
 
 
 
-Command to start the robot: 
+- Command to start the robot: 
 
 roslaunch mycar_start start.launch 
 
 
-1. Keyboard control SLAM
+- 1. Keyboard control SLAM
 
 roslaunch mycar_start start.launch 
 
@@ -34,7 +34,7 @@ roslaunch nav map_server.launch
 
 
 
-2. Navigation SLAM with map
+- 2. Navigation SLAM with map
 
 roslaunch nav gmapping.launch
 
@@ -46,7 +46,7 @@ roslaunch nav test_amcl.launch
 
 
 
-3. Navigation SLAM with no map
+- 3. Navigation SLAM with no map
 
 roslaunch mycar_start start.launch 
 
